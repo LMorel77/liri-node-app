@@ -96,20 +96,39 @@ else if (command === 'my-tweets') {
     });
 }
 else if (command === 'spotify-this-song') {
-    console.log('');
-    console.log('======================== Spotify =========================');
-    console.log('');
+    // console.log('');
+    // console.log('======================== Spotify =========================');
+    // console.log('');
     spotifyApp.search({
         type: 'track',
-        query: 'The Sign'
+        query: 'The Sign',
     },
         function (err, data) {
             if (err) {
                 return console.log('Error occurred: ' + err);
             }
-            console.log(data);
-            console.log('');
-            console.log('==========================================================');
+            else {
+                console.log('');
+                console.log('========================= Spotify =========================');
+                console.log('');
+                var musicInfo = data.tracks.items;
+                for (let i = 0; i < musicInfo.length; i++) {
+                    if (musicInfo[i].name = 'The Sign') {
+                        console.log('Song Name:', musicInfo[i].name);
+                        var artistInfo = musicInfo[i].artists;
+                        var artistNames = [];
+                        for (let ind = 0; ind < artistInfo.length; ind++) {
+                            artistNames.push(artistInfo[ind].name);
+                        }
+                        console.log('Artists:', artistNames.join(', '));
+                        console.log('Album:', musicInfo[i].album.name);
+                        console.log('Spotify Preview Link:', musicInfo[i].preview_url);
+                        console.log('Spotify Link:', musicInfo[i].external_urls.spotify);
+                        console.log('');
+                    }
+                }
+                console.log('===========================================================');
+            }
         });
 }
 else if (command === 'do-what-it-says') {
