@@ -1,3 +1,4 @@
+// A Node.js App
 require('dotenv').config();
 
 var dotenv = require('dotenv');
