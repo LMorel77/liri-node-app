@@ -80,7 +80,7 @@ else if (command === 'my-tweets') {
     console.log('');
     console.log('======================== Twitter =========================');
     console.log('');
-    twitterApp.get('statuses/user_timeline', {q: 'nodejs', count: 20}, function (error, tweets, response) {
+    twitterApp.get('statuses/user_timeline', { q: 'nodejs', count: 20 }, function (error, tweets, response) {
 
         if (!error) {
             for (let i = 0; i < tweets.length; i++) {
@@ -96,7 +96,21 @@ else if (command === 'my-tweets') {
     });
 }
 else if (command === 'spotify-this-song') {
-    console.log("This is the Spotify condition");
+    console.log('');
+    console.log('======================== Spotify =========================');
+    console.log('');
+    spotifyApp.search({
+        type: 'track',
+        query: 'The Sign'
+    },
+        function (err, data) {
+            if (err) {
+                return console.log('Error occurred: ' + err);
+            }
+            console.log(data);
+            console.log('');
+            console.log('==========================================================');
+        });
 }
 else if (command === 'do-what-it-says') {
     console.log("This is the Random condition");
