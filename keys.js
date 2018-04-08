@@ -1,3 +1,4 @@
+console.log('');
 console.log("Note: './keys.js' file loaded successfully");
 
 exports.twitter = {
