@@ -10,6 +10,7 @@ var twitter = require('twitter');
 
 var command = process.argv[2];
 var parameter = process.argv[3];
+var logData; // To store log.txt data...bonus activity
 
 var spotifyApp = new spotify(keys.spotify);
 var twitterApp = new twitter(keys.twitter);
@@ -193,7 +194,7 @@ else if (command === 'spotify-this-song') {
 }
 else if (command === 'do-what-it-says') {
     console.log('');
-    console.log('==================== Processing File =====================');
+    console.log('===================== Processing File =====================');
     console.log('');
     processFile();
 }
