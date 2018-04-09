@@ -134,7 +134,6 @@ function processFile() {
             return console.log(error);
         }
 
-        console.log('Data: ', data);
         var fileData = data.split(",");
 
         for (let i = 0; i < fileData.length; i += 2) {
