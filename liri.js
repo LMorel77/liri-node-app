@@ -73,23 +73,17 @@ function fetchMovie(movieName) {
                 rottenTomatoesRating = 'Unavailable';
             }
 
-            // Display movie info header in bash terminal and output to log file
-            console.log('\n======================= Movie Info =======================');
-            logFileOutput('\r\n\r\n======================= Movie Info =======================\r\n');
-
             // Display movie info in bash terminal and output to log file
-            console.log('\nTitle: ' + movieInfo.Title + '\nReleased: ' + movieInfo.Year + '\nIMDB Rating: ' +
+            console.log('\n======================= Movie Info =======================\n\nTitle: ' +
+                movieInfo.Title + '\nReleased: ' + movieInfo.Year + '\nIMDB Rating: ' +
                 movieInfo.imdbRating + '\nRotten Tomatoes Rating: ' + rottenTomatoesRating + '\nCountries: ' +
                 movieInfo.Country + '\nLanguages: ' + movieInfo.Language + '\nPlot: ' + movieInfo.Plot +
-                '\nActors: ' + movieInfo.Actors + '\n');
-            logFileOutput('\r\nTitle: ' + movieInfo.Title + '\r\nReleased: ' + movieInfo.Year + '\r\nIMDB Rating: ' +
+                '\nActors: ' + movieInfo.Actors + '\n\n=================== End of Movie Info ====================');
+            logFileOutput('\r\n\r\n======================= Movie Info =======================\r\n\r\nTitle: ' +
+                movieInfo.Title + '\r\nReleased: ' + movieInfo.Year + '\r\nIMDB Rating: ' +
                 movieInfo.imdbRating + '\r\nRotten Tomatoes Rating: ' + rottenTomatoesRating + '\r\nCountries: ' +
                 movieInfo.Country + '\r\nLanguages: ' + movieInfo.Language + '\r\nPlot: ' + movieInfo.Plot +
-                '\r\nActors: ' + movieInfo.Actors + '\r\n');
-
-            // Display movie info footer and output to log file
-            console.log('=================== End of Movie Info ====================');
-            logFileOutput('\r\n=================== End of Movie Info ====================\r\n');
+                '\r\nActors: ' + movieInfo.Actors + '\r\n\r\n=================== End of Movie Info ====================\r\n');
 
         }
         else {
@@ -115,10 +109,6 @@ function fetchTracks(trackName) {
 
         spotifyApp.request('https://api.spotify.com/v1/tracks/0hrBpAOgrt8RXigk83LLNE').then(function (data) {
 
-            // Display Spotify header in bash terminal and output to log file
-            console.log('\n========================= Spotify =========================');
-            logFileOutput('\r\n========================= Spotify =========================\r\n');
-
             // Loop through artists object and store artists in array
             var artistInfo = data.artists;
             var artistNames = [];
@@ -127,14 +117,14 @@ function fetchTracks(trackName) {
             }
 
             // Display song info in bash terminal and output to log file
-            console.log('\nSong Name: ' + data.name + '\nArtists: ' + artistNames.join(', ') +
-                '\nAlbum: ' + data.album.name + '\nSpotify Preview Link: ' + data.preview_url +
-                '\nSpotify Link: ' + spotifyTrackURL + data.id + '\n' +
-                '\n===================== End of Spotify ======================');
-            logFileOutput('\r\nSong Name: ' + data.name + '\r\nArtists: ' + artistNames.join(', ') +
-                '\r\nAlbum: ' + data.album.name + '\r\nSpotify Preview Link: ' + data.preview_url +
-                '\r\nSpotify Link: ' + spotifyTrackURL + data.id + '\r\n' +
-                '\r\n===================== End of Spotify ======================\r\n');
+            console.log('\n========================= Spotify =========================\n\nSong Name: ' +
+                data.name + '\nArtists: ' + artistNames.join(', ') + '\nAlbum: ' + data.album.name +
+                '\nSpotify Preview Link: ' + data.preview_url + '\nSpotify Link: ' + spotifyTrackURL + data.id +
+                '\n\n===================== End of Spotify ======================');
+            logFileOutput('\r\n========================= Spotify =========================\r\n\r\nSong Name: ' +
+                data.name + '\r\nArtists: ' + artistNames.join(', ') + '\r\nAlbum: ' + data.album.name + 
+                '\r\nSpotify Preview Link: ' + data.preview_url + '\r\nSpotify Link: ' + spotifyTrackURL + data.id +
+                '\r\n\r\n===================== End of Spotify ======================\r\n');
 
         })
             .catch(function (err) {
