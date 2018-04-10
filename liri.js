@@ -279,12 +279,18 @@ else if (command === 'my-tweets') {
 else if (command === 'spotify-this-song') {
 
     if (parameter === undefined) {
+
+        // Output bash terminal arguments and retrieve, display, and log song
         logFileOutput('\r\nBash Terminal Command: $ node liri.js spotify-this-song\r\n');
         fetchTracks('The Sign');
+
     }
     else {
+
+        // Output bash terminal arguments and retrieve, display, and log songs
         logFileOutput('\r\nBash Terminal Command: $ node liri.js spotify-this-song \'' + parameter + '\'\r\n');
         fetchTracks(parameter);
+        
     }
 
 }
@@ -294,12 +300,14 @@ else if (command === 'do-what-it-says') {
     console.log('\nProcessing File...\n');
     logFileOutput('\r\nBash Terminal Command: $ node liri.js do-what-it-says\r\n' +
         '\r\nProcessing File...\r\n');
+    
+    // Read and process random.txt file
     processFile();
 
 }
 else {
 
-    // Call function to display and log LIRI application error
+    // Display and log LIRI application error
     displayError();
 
 }
