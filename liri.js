@@ -250,7 +250,7 @@ else if (command === 'my-tweets') {
 
         if (!error) {
 
-            for (let i = 0; i < tweets.length; i++) {
+            for (let i = 0; i < tweets.length && i < 20; i++) {
 
                 // Display tweets in bash terminal and output to log file
                 console.log('\n' + (i + 1) + ') Tweet: ' + tweets[i].text + '\nDate/time: ' + tweets[i].created_at);
