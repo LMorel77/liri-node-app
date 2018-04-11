@@ -14,74 +14,85 @@ Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
 
 =================== End of Movie Info ====================
 
-Bash Terminal Command: $ node liri.js movie-this
+Bash Terminal Command: $ node liri.js movie-this 'Inkheart'
 
 ======================= Movie Info =======================
 
-Title: Mr. Nobody
-Released: 2009
-IMDB Rating: 7.9
-Rotten Tomatoes Rating: 66%
-Countries: Belgium, Germany, Canada, France, USA, UK
-Languages: English, Mohawk
-Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
-Actors: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
-
-=================== End of Movie Info ====================
-
-Bash Terminal Command: $ node liri.js movie-this 'Field of Dreams'
-
-======================= Movie Info =======================
-
-Title: Field of Dreams
-Released: 1989
-IMDB Rating: 7.5
-Rotten Tomatoes Rating: 86%
-Countries: USA
+Title: Inkheart
+Released: 2008
+IMDB Rating: 6.1
+Rotten Tomatoes Rating: 38%
+Countries: Germany, UK, USA
 Languages: English
-Plot: An Iowa corn farmer, hearing voices, interprets them as a command to build a baseball diamond in his fields; he does, and the 1919 Chicago White Sox come.
-Actors: Kevin Costner, Amy Madigan, Gaby Hoffmann, Ray Liotta
+Plot: A young girl discovers her father has an amazing talent to bring characters out of their books and must try to stop a freed villain from destroying them all, with the help of her father, her aunt, and a storybook's hero.
+Actors: Brendan Fraser, Sienna Guillory, Eliza Bennett, Richard Strange
 
 =================== End of Movie Info ====================
+
+Bash Terminal Command: $ node liri.js movie-this 'Diary of a wimpy kid'
+
+======================= Movie Info =======================
+
+Title: Diary of a Wimpy Kid
+Released: 2010
+IMDB Rating: 6.2
+Rotten Tomatoes Rating: 53%
+Countries: USA, UK
+Languages: English, German
+Plot: The adventures of a 12 year old who is fresh out of elementary and transitions to middle school, where he has to learn the consequences and responsibility to survive the year.
+Actors: Zachary Gordon, Robert Capron, Rachael Harris, Steve Zahn
+
+=================== End of Movie Info ====================
+
+Bash Terminal Command: $ node liri.js movie-this 'thisisanintentionaltypo'
+
+=================== OMDB Error ====================
+
+Sorry, unable to locate any movie titled: thisisanintentionaltypo
+
+=============== End of OMDB Error =================
 
 Bash Terminal Command: $ node liri.js my-tweets
 
 ======================== Twitter =========================
 
-1) Tweet: What was that? Did someone say, bacon?
-Date/time: Sun Apr 08 04:16:48 +0000 2018
+1) Tweet: Taking a final look at my node application called LIRI with my two wonderful boys.
+Date/time: Wed Apr 11 00:56:45 +0000 2018
 
-3) Tweet: Is Winter over yet?
-Date/time: Sun Apr 08 04:11:43 +0000 2018
-
-2) Tweet: No more snow, pleeeeassssee!!!
+3) Tweet: No more snow, pleeeeassssee!!!
 Date/time: Sun Apr 08 04:14:22 +0000 2018
 
-4) Tweet: Can't believe we're six weeks into class already. Time sure does fly.
+2) Tweet: What was that? Did someone say, bacon?
+Date/time: Sun Apr 08 04:16:48 +0000 2018
+
+4) Tweet: Is Winter over yet?
+Date/time: Sun Apr 08 04:11:43 +0000 2018
+
+5) Tweet: Can't believe we're six weeks into class already. Time sure does fly.
 Date/time: Sun Apr 08 03:46:51 +0000 2018
 
-5) Tweet: I could use a drink now.
+6) Tweet: I could use a drink now.
 Date/time: Sun Apr 08 03:45:11 +0000 2018
 
-6) Tweet: Coding is SO much fun!
+7) Tweet: Coding is SO much fun!
 Date/time: Sun Apr 08 03:44:03 +0000 2018
 
-7) Tweet: Rutgers Coding Bootcamp rocks!
+8) Tweet: Rutgers Coding Bootcamp rocks!
 Date/time: Sun Apr 08 03:43:50 +0000 2018
 
-8) Tweet: Was able to successfully pull tweets into my LIRI app.
+9) Tweet: Was able to successfully pull tweets into my LIRI app.
 Date/time: Sun Apr 08 03:43:21 +0000 2018
 
-9) Tweet: So far so good. Was able to successfully set up a Twitter account and Twitter application.
+10) Tweet: So far so good. Was able to successfully set up a Twitter account and Twitter application.
 Date/time: Sat Apr 07 22:44:23 +0000 2018
 
-10) Tweet: Working on a Twitter coding assignment at Rutgers Coding Bootcamp.
+11) Tweet: Working on a Twitter coding assignment at Rutgers Coding Bootcamp.
 Date/time: Sat Apr 07 22:43:33 +0000 2018
 
-11) Tweet: Playing around with Twitter.
+12) Tweet: Playing around with Twitter.
 Date/time: Sat Apr 07 22:43:09 +0000 2018
 
-12) Tweet: My First Tweet.
+13) Tweet: My First Tweet.
 Date/time: Sat Apr 07 22:42:39 +0000 2018
 
 ===================== End of Twitter =====================
@@ -98,131 +109,139 @@ Spotify Link: https://open.spotify.com/track/0hrBpAOgrt8RXigk83LLNE
 
 ===================== End of Spotify ======================
 
-Bash Terminal Command: $ node liri.js spotify-this-song 'The Lion Sleeps Tonight'
+Bash Terminal Command: $ node liri.js spotify-this-song 'Love the way you lie'
 
 ========================= Spotify =========================
 
-Song Name: The Lion Sleeps Tonight
-Artists: The Tokens
-Album: Wimoweh!!! - The Best Of The Tokens
-Spotify Preview Link: https://p.scdn.co/mp3-preview/95870249d01fe1e7f910a0ca9700d54655b4c47e?cid=b96cfc2234d644cf98b91b200fe2edfa
-Spotify Link: https://open.spotify.com/track/2F4FNcz68howQWD4zaGJSi
-
-Song Name: The Lion Sleeps Tonight
-Artists: Lebo M.
-Album: The Lion King: Original Broadway Cast Recording
+Song Name: Love the way you lie
+Artists: Eminem, Rihanna
+Album: Recovery
 Spotify Preview Link: null
-Spotify Link: https://open.spotify.com/track/3je1pkjiD7TLndoW6jqjoj
+Spotify Link: https://open.spotify.com/track/15JINEqzVMv3SvJTAXAKED
 
-Song Name: The Lion Sleeps Tonight
-Artists: The Tokens
-Album: The Lion Sleeps Tonight
-Spotify Preview Link: https://p.scdn.co/mp3-preview/f2e544cbf6b901f4fb1b344de63fdbcb65dd3e34?cid=b96cfc2234d644cf98b91b200fe2edfa
-Spotify Link: https://open.spotify.com/track/2QbSGkb3TgghEHpjKCsznm
-
-Song Name: The Lion Sleeps Tonight
-Artists: Tight Fit
-Album: 80s 100 Hits
-Spotify Preview Link: https://p.scdn.co/mp3-preview/fdd4c73c524329954ea15050ee394e9425132648?cid=b96cfc2234d644cf98b91b200fe2edfa
-Spotify Link: https://open.spotify.com/track/1so85Or3C7J0sBnBOucVBA
-
-Song Name: The Lion Sleeps Tonight
-Artists: The Tokens
-Album: All Time Greatest Hits
-Spotify Preview Link: https://p.scdn.co/mp3-preview/78cebfab053c6aab22eab583feaaaedbb8c10412?cid=b96cfc2234d644cf98b91b200fe2edfa
-Spotify Link: https://open.spotify.com/track/1PuBQjeSP1DMbiLZhMNADs
-
-Song Name: The Lion Sleeps Tonight
-Artists: *NSYNC
-Album: The Essential *NSYNC
-Spotify Preview Link: https://p.scdn.co/mp3-preview/368aa9f4fed42f3a44608f3888bf22c477160cbf?cid=b96cfc2234d644cf98b91b200fe2edfa
-Spotify Link: https://open.spotify.com/track/76ceFSUPAHrkbyIQkCWYJW
-
-Song Name: The Lion Sleeps Tonight
-Artists: Lebo M.
-Album: Best of The Lion King
+Song Name: Love the way you lie
+Artists: Rihanna, Eminem
+Album: Loud
 Spotify Preview Link: null
-Spotify Link: https://open.spotify.com/track/3hdaC2vSdmJPYzDm9BYFbn
+Spotify Link: https://open.spotify.com/track/4aPRuTsiG7B4owTTF8Dm3U
 
-Song Name: The Lion Sleeps Tonight
-Artists: Baby La La Byes
-Album: Newborn Lullabyes 2
-Spotify Preview Link: https://p.scdn.co/mp3-preview/1cd567b878cae2173f5fde600ca2a6b57c8bc10f?cid=b96cfc2234d644cf98b91b200fe2edfa
-Spotify Link: https://open.spotify.com/track/6PkilYXSA80yesitRhMqrz
-
-Song Name: The Lion Sleeps Tonight
-Artists: Lullabyes
-Album: Daycare Lullabyes
-Spotify Preview Link: https://p.scdn.co/mp3-preview/c1f1b4fce9b5ecc8fecd7d1ce5c6e82359c49403?cid=b96cfc2234d644cf98b91b200fe2edfa
-Spotify Link: https://open.spotify.com/track/1c92JlKTHN1sA7gF9fDICy
-
-Song Name: The Lion Sleeps Tonight
-Artists: MC6 A Cappella
-Album: MC6 Burgers, Shakes & Doo-Wop (A Capella)
-Spotify Preview Link: https://p.scdn.co/mp3-preview/3edaf1565b6d8fe38659531d308467a54c30c4ab?cid=b96cfc2234d644cf98b91b200fe2edfa
-Spotify Link: https://open.spotify.com/track/0crWDkAajRTnsGuZ6CAU85
-
-Song Name: The Lion Sleeps Tonight
-Artists: The Nylons
-Album: The Nylons
-Spotify Preview Link: https://p.scdn.co/mp3-preview/6eeb9318eeb46714a38e25682d22067cd2a90541?cid=b96cfc2234d644cf98b91b200fe2edfa
-Spotify Link: https://open.spotify.com/track/5MMTYlnfzR6lkS0vrwG8Dg
-
-Song Name: The Lion Sleeps Tonight
-Artists: Robert John
-Album: Atlantic Records 40th Anniversary: Hit Singles [1958-1977]
-Spotify Preview Link: https://p.scdn.co/mp3-preview/adc5a1817b7148c8cf9daade00a6c9a1220259a6?cid=b96cfc2234d644cf98b91b200fe2edfa
-Spotify Link: https://open.spotify.com/track/79fwgYi0nxAn2Zda7sHlmC
-
-Song Name: The Lion Sleeps Tonight
-Artists: The Laurie Berkner Band
-Album: Whaddaya Think Of That?
+Song Name: Love the way you lie
+Artists: A Skylit Drive
+Album: Punk Goes Pop, Vol. 4
 Spotify Preview Link: null
-Spotify Link: https://open.spotify.com/track/5V5TlIjCe720BZdHkEEPGV
+Spotify Link: https://open.spotify.com/track/2AQoOgnqSQy8NDx5r2RQBP
 
-Song Name: The Lion Sleeps Tonight
-Artists: The Tokens
-Album: Jukebox Legends
-Spotify Preview Link: https://p.scdn.co/mp3-preview/da5434ff15e570df864a28a9241735cb0e1f2962?cid=b96cfc2234d644cf98b91b200fe2edfa
-Spotify Link: https://open.spotify.com/track/16JvKtc1Ut0fr59rKT1dS4
-
-Song Name: The Lion Sleeps Tonight
-Artists: The Tokens
-Album: The Lion Sleeps Tonight
-Spotify Preview Link: https://p.scdn.co/mp3-preview/3cb3de6e33166cbf74666d61f6f43e222823c230?cid=b96cfc2234d644cf98b91b200fe2edfa
-Spotify Link: https://open.spotify.com/track/6w8XjvHN3OFjUW03zHNvgJ
-
-Song Name: The Lion Sleeps Tonight
-Artists: Vittorio Fraja
-Album: The lion sleeps tonight - Il meglio dei cartoni animati
-Spotify Preview Link: https://p.scdn.co/mp3-preview/fa93d95e8d2589677ebce2d89d6e6be189e0af53?cid=b96cfc2234d644cf98b91b200fe2edfa
-Spotify Link: https://open.spotify.com/track/3xWyNILJYRXznk07vySjMD
-
-Song Name: The Lion Sleeps Tonight
-Artists: R.E.M.
-Album: Complete Rarities 1988-2011
+Song Name: Love the way you lie
+Artists: Eminem, Rihanna
+Album: Recovery
 Spotify Preview Link: null
-Spotify Link: https://open.spotify.com/track/1FDfjIYtF9x4h5HD4yfn68
+Spotify Link: https://open.spotify.com/track/4k5Rb51qsUSMFg6oFdVC48
 
-Song Name: The Lion Sleeps Tonight
-Artists: Rockabye Lullaby
-Album: Rockabye Lullaby Bedtime Lullabies
-Spotify Preview Link: https://p.scdn.co/mp3-preview/c1f1b4fce9b5ecc8fecd7d1ce5c6e82359c49403?cid=b96cfc2234d644cf98b91b200fe2edfa
-Spotify Link: https://open.spotify.com/track/7C86xWe3Pl3FM8s8ZeoTLE
+Song Name: Love the way you lie
+Artists: Nazareno Aversa
+Album: Piano Cover 2
+Spotify Preview Link: https://p.scdn.co/mp3-preview/1e8c83c6f1c7e7ebe9201255aa033c6b2cb3ec27?cid=b96cfc2234d644cf98b91b200fe2edfa
+Spotify Link: https://open.spotify.com/track/5uw6wIM4YweAyhKA1LAmTx
 
-Song Name: The Lion Sleeps Tonight
-Artists: The Tokens
-Album: One Hit Wonders (Re-Recorded Versions)
-Spotify Preview Link: https://p.scdn.co/mp3-preview/f9d35fa378447912b6a721db944cd3f8fd8eedf6?cid=b96cfc2234d644cf98b91b200fe2edfa
-Spotify Link: https://open.spotify.com/track/2cMWhCv0NCJ2u22C51BQIr
+Song Name: Love the way you lie
+Artists: Your Favorite Martian
+Album: Love the Way You Lie
+Spotify Preview Link: https://p.scdn.co/mp3-preview/33f8d1bd1c43916bcd31c1496941fb43677307ca?cid=b96cfc2234d644cf98b91b200fe2edfa
+Spotify Link: https://open.spotify.com/track/2YDscBoVNgdw9i2saDaXZ4
 
-Song Name: The Lion Sleeps Tonight
-Artists: The Smile Face
-Album: The Best Village Song
-Spotify Preview Link: https://p.scdn.co/mp3-preview/39376af7d12836c19d329705d7a8a562566f3c70?cid=b96cfc2234d644cf98b91b200fe2edfa
-Spotify Link: https://open.spotify.com/track/7s5bdFTUDdQ9xQKepMNP0z
+Song Name: Love the way you lie
+Artists: Rihanna, Eminem
+Album: Loud
+Spotify Preview Link: null
+Spotify Link: https://open.spotify.com/track/1UU7RbvH71Tpdkw3P6oykm
+
+Song Name: Love the way you lie
+Artists: DjSunnymega
+Album: Love The Way You Lie (Remix)
+Spotify Preview Link: https://p.scdn.co/mp3-preview/4a2c13c013dc39582c3facbefb96d9fdf9ad737e?cid=b96cfc2234d644cf98b91b200fe2edfa
+Spotify Link: https://open.spotify.com/track/2HkUJXUe6RB8oFS6VjpMls
+
+Song Name: Love the way you lie
+Artists: Future Idiots
+Album: Grand Theft Audio 2
+Spotify Preview Link: https://p.scdn.co/mp3-preview/4e52264807d923ea60882c05b63b76b40acbe49f?cid=b96cfc2234d644cf98b91b200fe2edfa
+Spotify Link: https://open.spotify.com/track/6ZR4MSrPnBPFGZYsIF1owS
+
+Song Name: Love the way you lie
+Artists: Walk Off the Earth
+Album: Vol. 2
+Spotify Preview Link: https://p.scdn.co/mp3-preview/26e5f541a487ef5f765bc22e2529ce5e8db0fe4f?cid=b96cfc2234d644cf98b91b200fe2edfa
+Spotify Link: https://open.spotify.com/track/1hDzIxPlyQjOzc2IHOKuHC
+
+Song Name: Love the way you lie
+Artists: Rockabye Baby!
+Album: Lullaby Renditions of Rihanna
+Spotify Preview Link: https://p.scdn.co/mp3-preview/9847ef5ebdda17e2303a0906ed8ea576aa9c06c0?cid=b96cfc2234d644cf98b91b200fe2edfa
+Spotify Link: https://open.spotify.com/track/7o0Fz7xt05RU49XNwyNdzR
+
+Song Name: Love the way you lie
+Artists: Rockabye Baby!
+Album: Lullaby Renditions of Eminem
+Spotify Preview Link: https://p.scdn.co/mp3-preview/5e12fd84b9e308c11674ed5cf66823e2773bc51a?cid=b96cfc2234d644cf98b91b200fe2edfa
+Spotify Link: https://open.spotify.com/track/7hdEwLb6Gxs8OVF1oCuHpE
+
+Song Name: Love the way you lie
+Artists: Urban Method
+Album: The Sing-Off: Season 3: Episode 1 - Signature Songs
+Spotify Preview Link: https://p.scdn.co/mp3-preview/7a3e067ea477ab663ef76df0c56fcc9abdfacb51?cid=b96cfc2234d644cf98b91b200fe2edfa
+Spotify Link: https://open.spotify.com/track/6bOFuQmZdmvre9pwOsuTzd
+
+Song Name: Love the way you lie
+Artists: Rockabye Baby!
+Album: Good Baby, Bad Baby
+Spotify Preview Link: https://p.scdn.co/mp3-preview/7845bdeebd7a543efdccf918ac1ca410fe851ec1?cid=b96cfc2234d644cf98b91b200fe2edfa
+Spotify Link: https://open.spotify.com/track/2w1fqMwFeEBFuBF23iTKrc
+
+Song Name: Love the way you lie
+Artists: The O'Neill Brothers Group
+Album: Instrumental Pop Hits: Love the Way You Lie
+Spotify Preview Link: https://p.scdn.co/mp3-preview/6675f6739b547dcce80f350aca0c2b84a2825d13?cid=b96cfc2234d644cf98b91b200fe2edfa
+Spotify Link: https://open.spotify.com/track/572MVkN2B2XoDTdkXgMPte
+
+Song Name: Love the way you lie
+Artists: Oslil Kobi, Skyler Grey, MC Shaq
+Album: Awake
+Spotify Preview Link: https://p.scdn.co/mp3-preview/e1c1cf108a315094bb379d38acccaff39ab50494?cid=b96cfc2234d644cf98b91b200fe2edfa
+Spotify Link: https://open.spotify.com/track/6K1szEDuDb54hPSOdf5hWb
+
+Song Name: Love the way you lie
+Artists: Layla Mackey
+Album: Love the Way You Lie
+Spotify Preview Link: https://p.scdn.co/mp3-preview/d9701be3de3d1c934c0350ff7c60580c4dd5845c?cid=b96cfc2234d644cf98b91b200fe2edfa
+Spotify Link: https://open.spotify.com/track/26AbuyBruYyKDZz6YqWMKP
+
+Song Name: Love the way you lie
+Artists: J Rice
+Album: The Covers, Vol. 1
+Spotify Preview Link: https://p.scdn.co/mp3-preview/a43c44ae56e239112f7bd617d0df2ac17118b9f9?cid=b96cfc2234d644cf98b91b200fe2edfa
+Spotify Link: https://open.spotify.com/track/0CNyOOvOriiVi0kMo3QgEw
+
+Song Name: Love the way you lie
+Artists: Tyler Ward
+Album: Covers Vol. 3
+Spotify Preview Link: https://p.scdn.co/mp3-preview/d1db3a6a5d21152cd29808a7c738cf074b6b4800?cid=b96cfc2234d644cf98b91b200fe2edfa
+Spotify Link: https://open.spotify.com/track/6hgbhIp2cIrwheZ6Igqene
+
+Song Name: Love the way you lie
+Artists: Nate Fifield
+Album: Pop Hits for Ballet Class, Vol. 3
+Spotify Preview Link: https://p.scdn.co/mp3-preview/f0e3a42b379f7876e9361a8886ce86204a0fa319?cid=b96cfc2234d644cf98b91b200fe2edfa
+Spotify Link: https://open.spotify.com/track/6CdoPcVb2ONSUVr2WlBCYT
 
 ===================== End of Spotify ======================
+
+Bash Terminal Command: $ node liri.js spotify-this-song 'thisisanintentionaltypo'
+
+=================== Spotify Error ====================
+
+StatusCodeError: 502 - {"error":{"status":502,"message":"Bad gateway."}}
+
+=============== End of Spotify Error =================
 
 Bash Terminal Command: $ node liri.js do-what-it-says
 
@@ -352,7 +371,7 @@ Spotify Link: https://open.spotify.com/track/6FNTpwQU3VNZvezUPYMjPY
 
 ===================== End of Spotify ======================
 
-Bash Terminal Command: $ order coffee hazelnut hot medium two creams one sugar
+Bash Terminal Command: $ this is an intentional typo
 
 =================== LIRI Application Error ====================
 
